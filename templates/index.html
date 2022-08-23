@@ -9,17 +9,17 @@
 <body>
     <h2>Volume Calculator</h2>
     <p>Enter the 3 dimensions to get the volume</p>
-    <form>
+    <form form method="POST">
         <div>
-            <input></input>
+            <input name="length"></input>
         </div>
         <div>
-            <input></input>
+            <input name="width"></input>
         </div>
         <div>
-            <input></input>
+            <input name="height"></input>
         </div>
-        <span></span>
+        <span>{{volume}}</span>
         <button>Calculate</button>
     </form>
 </body>
